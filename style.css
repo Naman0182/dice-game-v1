@@ -1,0 +1,50 @@
+ h1, h2 {
+    font-family: sans-serif;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: #777;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 200px;
+  
+    background: white;
+    border: 2px solid black;
+  }
+
+  .btn{
+    border: .25px solid black;
+    background: red;
+    color: white;
+
+    margin: 12px;
+    padding: 12px;
+    cursor: pointer;
+  }
+img{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    padding: 12px;
+    margin-right: 12px;
+
+  border-radius: 5px;
+
+  color:white;
+  background: red;
+  }
